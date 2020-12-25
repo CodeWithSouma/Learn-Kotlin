@@ -10,6 +10,10 @@ fun main() {
     println("Print array element using for each loop")
     names.forEach { name -> println(name) }
 
+    // another way
+    println("Print array element using for each loop(Another way)")
+    names.forEach { println(it) } // it take element one by one
+
     // while loop
     println("Print array element using for each while loop")
     var index: Int = 0
