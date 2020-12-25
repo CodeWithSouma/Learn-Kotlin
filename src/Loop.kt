@@ -5,8 +5,12 @@ fun main() {
     println("Print array element using for loop")
     for ( name in names)
         println(name)
+    // another way
+    println("Print array element using for loop(using range)")
+    for ( i in 0 until names.size)
+        println(names[i])
 
-    // for loop
+    // for each loop
     println("Print array element using for each loop")
     names.forEach { name -> println(name) }
 
