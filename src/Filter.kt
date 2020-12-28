@@ -5,4 +5,7 @@ fun main() {
     val filteredList = list.filter { num -> num > 10 }
     filteredList.forEach( Consumer { num -> print("$num ") })
     println()
+
+    filteredList.map { i -> i / 3  }.forEach(Consumer { print("$it ") } )
+    println()
 }
