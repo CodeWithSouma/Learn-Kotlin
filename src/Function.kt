@@ -23,7 +23,7 @@ fun main() {
     // val use for defining constant
     // val use for defining variable
     val result = calculateSum(10, 20)
-    println("Result: $result");
+    println("Result: $result")
     printSum(4, 5)
     greet(name = "Souma")// no need to pass first argument
     greet(name = "Soumaik", greet = "Good Evening")//when you pass named argument then you don't need to maintain sequence of parameter
