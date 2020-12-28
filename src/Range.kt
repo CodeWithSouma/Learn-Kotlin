@@ -11,9 +11,13 @@ fun main() {
         println("-1 is out of range")
 
     //Iterating over a range
-    for ( x in 1 .. 5)
-        print("$x    ")
+    for ( i in 1 .. 5)
+        print("$i    ")
     println()
 
+    //or over a progression
+    for ( j in 1 .. 20 step 2)
+        print("$j    ")
+    println()
 
 }
