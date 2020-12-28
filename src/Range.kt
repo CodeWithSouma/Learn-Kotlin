@@ -5,9 +5,15 @@ fun main() {
     if (x in 1 .. y+1)
         println("$x is fit in this range")
 
-    //Check if a number is out of range:
+    //Check if a number is out of range
     val list =  listOf<String>("a","b","c","d")
     if (-1 !in 0..list.lastIndex)
         println("-1 is out of range")
+
+    //Iterating over a range
+    for ( x in 1 .. 5)
+        print("$x    ")
+    println()
+
 
 }
