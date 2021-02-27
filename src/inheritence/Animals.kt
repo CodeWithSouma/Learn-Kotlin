@@ -8,4 +8,8 @@ open class Animals(var legs: Int, var color: String) {
     fun sleep():Unit{
         println("I sleep")
     }
+
+    open fun sounds(): Unit{
+        println("I make a sound")
+    }
 }

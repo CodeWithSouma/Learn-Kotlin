@@ -6,4 +6,8 @@ class Dogs(legs: Int, color: String ) : Animals(legs,color) {
     fun bark(): Unit{
         println("I bark")
     }
+
+    override fun sounds() {
+        println("I bark")
+    }
 }

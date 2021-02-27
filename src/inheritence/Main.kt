@@ -6,11 +6,11 @@ fun main() {
 
     dog.eat()
     dog.sleep()
-    dog.bark()
+    dog.sounds()
 
     cats.eat()
     cats.sleep()
-    cats.purr()
+    cats.sounds()
 
 }
 
